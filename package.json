@@ -25,7 +25,7 @@
     "build-watch": "onchange 'src/**/*.js' 'src/**/*.jsx' -- yarn run build",
     "prettier-watch": "onchange 'src/**/*.js' 'src/**/*.jsx' -- prettier --write {{changed}}",
     "build": "babel src --out-dir .",
-    "prepublishOnly": "npm run build"
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
