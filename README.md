@@ -1,4 +1,4 @@
-# gatsby-plugin-page-transitions for V2
+# gatsby-plugin-page-transitions - Gatsby V2
 
 Add page transitions to your Gatsby site.
 
